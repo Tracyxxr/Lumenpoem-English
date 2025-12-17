@@ -15,7 +15,7 @@ try:
     QINIU_API_KEY = st.secrets["QINIU_API_KEY"]
 except:
     # 本地测试用的备用 Key
-    QINIU_API_KEY = "sk-80b39617f109c2380eef6058a697fa146f96b059f34423c2149e655be7d424cd" 
+    QINIU_API_KEY = " " 
 
 QINIU_BASE_URL = "https://api.qnaigc.com/v1"
 
@@ -427,4 +427,5 @@ def main():
                 st.rerun()
 
 if __name__ == "__main__":
+
     main()
